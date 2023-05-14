@@ -1,2 +1,2 @@
-# jv-nvim
+# neo vim
 My nvim config
