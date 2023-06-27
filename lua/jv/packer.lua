@@ -52,6 +52,9 @@ return require('packer').startup(function(use)
 	'nvim-tree/nvim-tree.lua'
   }
 
+  use {
+      'theprimeagen/harpoon'
+  }
 
   use {
 	  'fei6409/log-highlight.nvim',
@@ -60,4 +63,7 @@ return require('packer').startup(function(use)
 	  end,
   }
 
+  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+
+  
   end)
