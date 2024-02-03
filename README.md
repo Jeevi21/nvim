@@ -1,2 +1,1 @@
-# nvim
 My LazyVim config
